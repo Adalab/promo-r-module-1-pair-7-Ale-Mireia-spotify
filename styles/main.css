@@ -1,7 +1,30 @@
-.header-main {background-color: black;
-height:60px }
-.logo-spotify{width:20px;
-height:100px}
+ :root {
+
+ }
+ 
+ .body {
+    font-family: Roboto;
+ }
+ .header-main {background-color: black;
+    display: inline-block;
+    
+    }
+.logo-spotify{
+    height: 30%;
+    width: 10%;
+    padding: 10px;
+    text-align: left;
+}
+.menu{
+    height: 8%;
+    width: 3%;
+    padding: 10px;
+    margin-left: 800px;
+    
+    
+}
+
+
 .primera-seccion{background-color: blue;}
 .segunda-seccion{background-color: white;}
 .footer-spotify{background-color: black;}
