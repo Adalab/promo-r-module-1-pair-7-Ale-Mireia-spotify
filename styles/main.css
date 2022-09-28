@@ -6,26 +6,56 @@
     font-family: Roboto;
  }
  .header-main {background-color: black;
-    display: inline-block;
-    
+        display: flex;
+        height:40px;
+        width:100%;
+        justify-content:space-between;
+        position: relative;
+        }
+
+    .menu{
+        text-align: right;
+        position:absolute;
+        top:7px;
+        right:18px; 
     }
-.logo-spotify{
-    height: 30%;
-    width: 10%;
-    padding: 10px;
-    text-align: left;
+
+    .menu-icon{
+        height:80%;
+        width: 7%    
+    }
+
+    .logo-spotify{
+        height: 60%;
+        width: 10%;
+        position:absolute;
+        top:7px;
+        bottom:7px;
+        left:7px;
+        }
+
+
+.main{
+    background-color:blueviolet;}
+
+
+    .primera-seccion{background-color: #1E74DE;
+        height:50vh;
 }
-.menu{
-    height: 8%;
-    width: 3%;
-    padding: 10px;
-    margin-left: 800px;
-    
-    
+    .segunda-seccion{background-color: white;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+}
+
+        .segunda-seccion img{
+            height:100px;
+             width:100px;
 }
 
 
-.primera-seccion{background-color: blue;}
-.segunda-seccion{background-color: white;}
-.footer-spotify{background-color: black;}
+.footer-spotify{background-color: black;
+}
+.legal{color:white}
+.espana{color:white}
 
