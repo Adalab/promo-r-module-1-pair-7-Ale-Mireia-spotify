@@ -7,7 +7,7 @@
  }
  .header-main {background-color: black;
         display: flex;
-        height: 2.8vh;
+        height: 4vh;
         width:100%;
         justify-content:space-between;
         position: relative;
@@ -16,21 +16,21 @@
     .menu{
         text-align: right;
         position:absolute;
-        top:32px; /*   top:2em; */
-        right:32px; /*  right:2em;  */
+        top:20%; 
+        right:2%; 
     }
 
     .menu-icon{
-        height:60%; 
-        width: 20%;   
+        height:22%; 
+        width: 12%;   
     }
 
     .logo-spotify{
-        height: 45%; 
-        width: 20%; 
+        height: 50%; 
+        width: 11%; 
         position:absolute;
-        top:32px; /*  top:2em;  */
-        left:24px; /* left:1.5em;  */
+        top:26%; 
+        left:2%; 
         }   
 
 
@@ -38,7 +38,7 @@
         height:50vh;
 }
     .segunda-seccion{background-color: white;
-        height:47vh;
+       
         display:flex;
         flex-direction:column;
         flex-wrap: wrap;
@@ -90,7 +90,7 @@
 .legal{color:white;
     font-size: 20px;
     display: flex;
-    padding-top: 200px;
+    
 }
 
 .anuncios {
