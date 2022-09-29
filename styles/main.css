@@ -3,11 +3,11 @@
  }
  
  .body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
  }
  .header-main {background-color: black;
         display: flex;
-        height:40px;
+        height: 2.8vh;
         width:100%;
         justify-content:space-between;
         position: relative;
@@ -16,46 +16,95 @@
     .menu{
         text-align: right;
         position:absolute;
-        top:7px;
-        right:18px; 
+        top:32px; /*   top:2em; */
+        right:32px; /*  right:2em;  */
     }
 
     .menu-icon{
-        height:80%;
-        width: 7%    
+        height:60%; 
+        width: 20%;   
     }
 
     .logo-spotify{
-        height: 60%;
-        width: 10%;
+        height: 45%; 
+        width: 20%; 
         position:absolute;
-        top:7px;
-        bottom:7px;
-        left:7px;
-        }
-
-
-.main{
-    background-color:blueviolet;}
+        top:32px; /*  top:2em;  */
+        left:24px; /* left:1.5em;  */
+        }   
 
 
     .primera-seccion{background-color: #1E74DE;
         height:50vh;
 }
     .segunda-seccion{background-color: white;
+        height:41vh;
         display:flex;
         flex-direction:column;
-        align-items:center;
+        flex-wrap: wrap;
 }
 
         .segunda-seccion img{
-            height:100px;
-             width:100px;
+            height:25%;
+             width:25%;
+             margin:0 5rem;
+            
+                      
 }
 
 
+.elemento-lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 150px;
+   
+}
+
+.texto-lista {
+   gap: 10px;
+}
+.title {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.titulo-lista {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.subtitulo-lista {
+    font-size: 35px;
+    color: gray;
+}
 .footer-spotify{background-color: black;
+    height:10vh;
 }
-.legal{color:white}
-.espana{color:white}
 
+
+.legal{color:white;
+    font-size: 20px;
+    display: flex;
+    padding-top: 200px;
+}
+
+.anuncios {
+    color:white;
+    font-size: 20px;
+}
+
+.espana{color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.foto-espana {
+    flex-direction: row;
+  
+}
