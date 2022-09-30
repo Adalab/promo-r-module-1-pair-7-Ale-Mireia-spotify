@@ -7,41 +7,65 @@
  }
  .header-main {background-color: black;
         display: flex;
-        height: 4vh;
+        height: 5vh;
         width:100%;
         justify-content:space-between;
-        position: relative;
+        position:fixed;
+        top: 0;
+        z-index: 3;
+
         }
 
-    .menu{
+        .logo-spotify{
+            height: 50%; 
+            width: 18%; 
+            position:absolute;
+            top:25%; 
+            left:3%; 
+            }   
+
+        .menu{
         text-align: right;
         position:absolute;
-        top:20%; 
+        top: 25%; 
         right:2%; 
-    }
+         }
 
-    .menu-icon{
-        height:22%; 
-        width: 12%;   
-    }
-
-    .logo-spotify{
-        height: 50%; 
-        width: 11%; 
-        position:absolute;
-        top:26%; 
-        left:2%; 
-        }   
+        .menu-icon{
+        height:30%; 
+        width: 16%;   
+        }
+.main{ color:white}
 
 
-    .primera-seccion{background-color: #1E74DE;
+    .primera-seccion{background-color: #509bf5;
         height:50vh;
+        position:absolute;
+        top: 5%;
+}
+
+      .button{ background-color: #20d760;
+        color:white;
+
 }
     .segunda-seccion{background-color: white;
        
         display:flex;
         flex-direction:column;
         flex-wrap: wrap;
+        position:absolute;
+        top:50%;
+ 
+
+}
+
+.title {
+    color:black;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 70px;
 }
 
         .segunda-seccion img{
@@ -63,48 +87,88 @@
 
 .texto-lista {
    gap: 10px;
-}
-.title {
-    font-size: 80px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 90px;
-    padding-bottom: 70px;
+   
 }
 
+
 .titulo-lista {
-    font-size: 50px;
+    color:black;
+    font-size: 42px;
     font-weight: bold;
     padding-bottom: 40px;
 }
 
 .subtitulo-lista {
-    font-size: 35px;
+    font-size: 25px;
     color: gray;
+
 }
+
+
 .footer-spotify{background-color: black;
     height:10vh;
+    
+    
+    
+ 
 }
 
 
-.legal{color:white;
-    font-size: 20px;
+.footer-izquierda{color:white;
+    font-size: 14px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:3%;
+    width: 50%;
     
 }
 
+
+
+
 .anuncios {
     color:white;
-    font-size: 20px;
+    font-size: 14px;
+    display:flex;
+    align-items: flex-end;
+    padding-top: 2%
+    
+}
+
+.legal{display:flex;
+flex-direction:row;
+gap:1%;
+padding-top: 10%;
 }
 
 .espana{color:white;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    
 }
 
 .foto-espana {
-    flex-direction: row;
+    display:flex;
+    padding-right:3%;
+    align-items: flex-end;
+    
   
+}
+
+.spain{
+display:flex;
+justify-content:space-between;
+padding-right: 10%;
+padding-bottom:15%;
+font-size: 12px;
+
+
+}
+.copy{
+    padding-top:3%;
+    padding-right:3%;
+    font-size: 12px;
 }
